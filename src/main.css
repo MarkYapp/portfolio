@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  flex: 30%;
+  background-color: lightgrey;
+}
+
+.profile-photo {
+  background-color: grey;
+  width: 90%;
+  height: 300px;
+}
+
+.projects {
+  flex: 70%;
+  background-color: grey;
+}
+
+.project-screenshot {
+  margin: 10px auto;
+  background-color: grey;
+  width: 90%;
+  height: 300px;
+}
+
+@media screen and (max-width: 700px) {
+  .main,
+  nav {
+    flex-direction: column;
+  }
+}
