@@ -1,0 +1,16 @@
+.header {
+  /* padding: 30px; */
+  text-align: center;
+  background: lightgrey;
+  height: 10vh;
+  margin: 0;
+}
+
+nav {
+  background-color: #aaa;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+}
