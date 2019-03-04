@@ -6,7 +6,8 @@ export default function Main() {
   return (
     <main className="main">
       <section className="sidebar">
-        <div className="profile-photo">Profile photo</div>
+        <img className="profile-photo" src="../images/profile-photo.png" alt="Mark Yapp" />
+
         <h4>
           Hi, my name is Mark Yapp. I’m a full stack web developer with a passion for clean code and
           engaging UI’s.
@@ -29,11 +30,17 @@ export default function Main() {
       <section className="projects">
         <h2>Projects</h2>
         <h3>Deltio</h3>
-        <div className="project-screenshot">Project Screenshot</div>
+        <div className="project-screenshot">
+          <img src="../images/deltio.png" alt="deltio" />
+        </div>
         <h3>Yappr</h3>
-        <div className="project-screenshot">Project Screenshot</div>
+        <div className="project-screenshot">
+          <img src="../images/yappr.png" alt="yappr" />
+        </div>
         <h3>International Space Station Locator</h3>
-        <div className="project-screenshot">Project Screenshot</div>
+        <div className="project-screenshot">
+          <img src="../images/iss-locator.png" alt="ISS Locator" />
+        </div>
       </section>
     </main>
   );

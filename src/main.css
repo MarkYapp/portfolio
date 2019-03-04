@@ -5,13 +5,14 @@
 
 .sidebar {
   flex: 30%;
+  padding: 20px;
   background-color: lightgrey;
 }
 
 .profile-photo {
   background-color: grey;
   width: 90%;
-  height: 300px;
+  /* height: 300px; */
 }
 
 .projects {
@@ -22,8 +23,12 @@
 .project-screenshot {
   margin: 10px auto;
   background-color: grey;
-  width: 90%;
-  height: 300px;
+  width: 80%;
+  height: auto;
+}
+
+.project-screenshot img {
+  width: 100%;
 }
 
 @media screen and (max-width: 700px) {
