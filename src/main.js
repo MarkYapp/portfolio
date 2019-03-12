@@ -8,7 +8,7 @@ export default function Main() {
       <section className="sidebar">
         <img className="profile-photo" src="../images/profile-photo.png" alt="Mark Yapp" />
 
-        <h4>
+        <h4 id="bio">
           Hi, my name is Mark Yapp. I’m a full stack web developer with a passion for clean code and
           engaging UI’s.
         </h4>
@@ -27,7 +27,7 @@ export default function Main() {
         </p>
       </section>
 
-      <section className="projects">
+      <section id="projects" className="projects">
         <h2>Projects</h2>
         <h3>Deltio</h3>
         <div className="project-screenshot">
