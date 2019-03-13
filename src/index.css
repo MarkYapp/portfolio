@@ -9,7 +9,6 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  color: #444;
   text-align: center;
   line-height: 1.5;
   margin: 0;
@@ -19,16 +18,13 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 1% 0;
+  font-size: 16px;
+  padding: 2px 0;
   background-color: #aaa;
 }
 
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #bbb;
-}
-
-section:nth-child(even) {
-  background-color: #ddd;
+  /* background-color: #bbb; */
 }

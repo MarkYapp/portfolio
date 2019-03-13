@@ -6,33 +6,61 @@
 .sidebar {
   flex: 30%;
   padding: 20px;
-  background-color: lightgrey;
+}
+
+.profile-section {
+  display: flex;
+  padding: 3%;
+}
+
+.bio {
+  flex: 70%;
 }
 
 .profile-photo {
-  background-color: grey;
-  width: 90%;
-  /* height: 300px; */
+  padding: 5%;
 }
 
 .projects {
-  flex: 70%;
-  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  padding: 2%;
+  margin: auto;
 }
 
+.projects-header {
+  width: 70%;
+  border-bottom: 1px solid grey;
+  margin: auto;
+}
+
+.projects-header h2 {
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+  background-color: white;
+  transform: translate(-200%, 50%);
+}
+
+.project-info {
+  flex: 30%;
+  width: 200px;
+}
 .project-screenshot {
+  flex: 70%;
   margin: 10px auto;
   width: 80%;
   height: auto;
 }
 
 .project-screenshot img {
-  width: 100%;
+  width: 80%;
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .main,
   nav {
     flex-direction: column;
   }
-}
+} */
