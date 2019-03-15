@@ -1,5 +1,5 @@
 .main {
-  padding: 0 3%;
+  /* margin-top: 50px; */
 }
 
 .profile-section {
@@ -7,7 +7,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: 1000px;
-  margin: 3vh auto;
+  margin: 0 auto;
+  padding-top: 80px;
 }
 
 .bio-box {
@@ -17,7 +18,7 @@
 }
 
 .profile-photo-box {
-  background-color: lightblue;
+  background-color: #addbe0;
   padding: 2%;
   width: 300px;
 }
@@ -28,14 +29,14 @@
 }
 
 .projects {
-  width: 1000px;
-  margin: auto;
+  padding: 50px 3%;
+  margin-top: 80px;
 }
 
 .projects-header {
   width: 90%;
   border-bottom: 1px solid grey;
-  margin: auto;
+  margin: 0 auto 80px;
   text-align: center;
 }
 
@@ -48,10 +49,11 @@
 }
 
 .project-wrapper {
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 5vh;
+  margin-bottom: 100px;
   max-width: 1000px;
 }
 
@@ -59,9 +61,15 @@
   width: 400px;
 }
 
+.project-info h3 {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+}
+
 .project-screenshot {
   width: 400px;
-  margin: 10px auto;
+  /* margin: 10px auto; */
   height: auto;
 }
 
@@ -71,11 +79,12 @@
 
 footer {
   text-align: center;
-  position: fixed;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
   width: 100%;
   font-size: 16px;
-  padding: 2px 0;
+  /* padding: 2px 0; */
+  height: 20vh;
   background-color: lightgrey;
 }
 

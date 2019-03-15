@@ -1,19 +1,31 @@
 .header {
-  text-align: center;
-  background: lightgrey;
-  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#addbe0, white);
+  /* background: lightgrey; */
+  height: 120px;
+  margin: 0;
+}
+
+.header h1 {
+  font-size: 45px;
+  font-weight: 100;
   margin: 0;
 }
 
 nav {
-  background-color: lightgrey;
-  height: 5vh;
-  /* padding-left: 50px; */
+  /* overflow: hidden; */
+  background-color: white;
+  opacity: 0.9;
+  width: 1500px;
+  margin: 0 auto;
+  height: 50px;
   display: flex;
 }
 
 nav a {
-  margin-right: 20px;
+  /* margin-right: 20px; */
   text-decoration: none;
   justify-content: left;
 }
@@ -21,14 +33,30 @@ nav a {
 nav button {
   height: 100%;
   border: none;
-  color: white;
-  background-color: grey;
+  font-size: 21px;
+  font-weight: 200;
+  /* color: white; */
+  /* background-color: grey; */
   padding: 0 10px;
 }
 
 nav button:hover {
-  background-color: black;
+  color: white;
+  background-color: grey;
   cursor: pointer;
+}
+
+.sticky {
+  width: 1500px;
+  left: 50%;
+  transform: translate(-50%);
+  position: fixed;
+  top: 0;
+  /* width: 100%; */
+}
+
+.extra-padding {
+  padding-top: 50px;
 }
 
 /* @media only screen and (min-width: 568px) {

@@ -7,13 +7,8 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Cantarell', sans-serif;
   line-height: 1.5;
   margin: 0;
-  /* height: 92vh; */
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
 }
