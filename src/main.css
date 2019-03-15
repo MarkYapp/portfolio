@@ -1,11 +1,15 @@
+.main {
+  padding: 0 5%;
+}
+
 .profile-section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 .bio-box {
@@ -16,7 +20,6 @@
 .profile-photo-box {
   background-color: #e1f2f4;
   border-radius: 5%;
-  margin-right: 50px;
   padding: 40px;
   height: 400px;
   width: 400px;
@@ -29,13 +32,13 @@
 
 .projects {
   padding: 50px 3%;
-  margin-top: 80px;
+  text-align: center;
 }
 
 .projects-header {
   width: 90%;
   border-bottom: 1px solid grey;
-  margin: 0 auto 80px;
+  margin: 0 auto 30px;
   text-align: center;
 }
 
@@ -44,46 +47,38 @@
   display: inline-block;
   padding: 0 10px;
   background-color: white;
-  transform: translate(-200%, 50%);
+  transform: translate(0, 50%);
 }
 
 .project-wrapper {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 100px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
   max-width: 1000px;
 }
 
 .project-info {
   width: 400px;
-  margin-right: 50px;
+  padding-bottom: 20px;
 }
 
 .project-info h3 {
   font-size: 24px;
   font-weight: 200;
-  text-align: center;
 }
 
 .project-screenshot {
   background-color: #e1f2f4;
   border-radius: 5%;
   width: 500px;
-  height: 450px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 30px;
 }
 
 .project-screenshot img {
-  width: 85%;
-  transition: width 400ms;
-}
-
-.project-screenshot img:hover {
-  width: 90%;
+  width: 100%;
 }
 
 footer {
@@ -99,8 +94,39 @@ footer {
   margin-right: 20px;
 }
 
-/* @media only screen and (min-width: 568px) {
-}
-
 @media only screen and (min-width: 900px) {
-} */
+  .projects {
+    margin-top: 70px;
+  }
+
+  .projects-header {
+    margin-bottom: 80px;
+  }
+
+  .projects-header h2 {
+    transform: translate(-200%, 50%);
+  }
+
+  .project-wrapper {
+    margin-bottom: 100px;
+  }
+
+  .project-screenshot {
+    background-color: #e1f2f4;
+    border-radius: 5%;
+    width: 550px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-screenshot img {
+    width: 95%;
+    transition: width 400ms;
+  }
+
+  .project-screenshot img:hover {
+    width: 98%;
+  }
+}

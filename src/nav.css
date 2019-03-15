@@ -16,15 +16,14 @@
 nav {
   background-color: white;
   opacity: 0.9;
-  width: 1500px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
   height: 50px;
   display: flex;
+  justify-content: center;
 }
 
 nav a {
   text-decoration: none;
-  justify-content: left;
 }
 
 nav button {
@@ -35,14 +34,8 @@ nav button {
   padding: 0 10px;
 }
 
-nav button:hover {
-  color: white;
-  background-color: grey;
-  cursor: pointer;
-}
-
 .sticky {
-  width: 1500px;
+  width: 100%;
   left: 50%;
   transform: translate(-50%);
   position: fixed;
@@ -50,11 +43,33 @@ nav button:hover {
 }
 
 .extra-padding {
-  padding-top: 50px;
+  padding-top: 130px;
 }
 
-/* @media only screen and (min-width: 568px) {
+@media only screen and (min-width: 568px) {
 }
 
 @media only screen and (min-width: 900px) {
-} */
+  nav {
+    justify-content: left;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  nav {
+    width: 1500px;
+    justify-content: left;
+  }
+
+  nav button:hover {
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+  }
+
+  .sticky {
+    width: 1500px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

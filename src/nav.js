@@ -9,14 +9,14 @@ export default class Nav extends React.Component {
 
   handleScroll = () => {
     const navbar = document.getElementById('navbar');
-    const main = document.getElementById('main');
+    const profile = document.getElementById('profile');
     const headerHeight = 120;
     if (window.pageYOffset >= headerHeight) {
       navbar.classList.add('sticky');
-      main.classList.add('extra-padding');
+      profile.classList.add('extra-padding');
     } else {
       navbar.classList.remove('sticky');
-      main.classList.remove('extra-padding');
+      profile.classList.remove('extra-padding');
     }
   };
 
