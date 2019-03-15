@@ -5,10 +5,11 @@ import './main.css';
 export default function Main() {
   return (
     <main className="main">
-      <section className="profile-section">
-        {/* className="sidebar"> */}
-        <img className="profile-photo" src="../images/profile-photo.png" alt="Mark Yapp" />
-        <div className="bio">
+      <section id="profile" className="profile-section">
+        <div className="profile-photo-box">
+          <img className="profile-photo" src="../images/profile-photo-2.png" alt="Mark Yapp" />
+        </div>
+        <div className="bio-box">
           <h4 id="bio">
             Hi, my name is Mark Yapp. I’m a full stack web developer with a passion for clean code
             and engaging UI’s.
@@ -29,51 +30,57 @@ export default function Main() {
         </div>
       </section>
 
-      <div className="projects-header" id="projects">
-        <h2>Projects</h2>
-      </div>
-      <section className="projects">
-        {/* className="projects"> */}
-        <div className="project-info">
-          <h3>Deltio</h3>
-          <p>Create, collect, and share beautiful digital postcards.</p>
-          <p>
-            Tech: React, Redux, Node.js, MongoDB, Mongoose, Passport, JWT, Travis CI, Heroku,
-            Enzyme, JavaScript, HTML, and CSS
-          </p>
-          <a href="https://powerful-brook-49143.herokuapp.com/">Live app</a>
-          <br />
-          <a href="https://github.com/MarkYapp/deltio-client">GitHub Repo</a>
+      <section id="projects" className="projects">
+        <div className="projects-header">
+          <h2>Projects</h2>
         </div>
-        <div className="project-screenshot">
-          <img src="../images/deltio.png" alt="deltio" />
+        <div className="project-wrapper">
+          <div className="project-info">
+            <h3>Deltio</h3>
+            <p>Create, collect, and share beautiful digital postcards.</p>
+            <p>
+              Tech: React, Redux, Node.js, MongoDB, Mongoose, Passport, JWT, Travis CI, Heroku,
+              Enzyme, JavaScript, HTML, and CSS
+            </p>
+            <a href="https://powerful-brook-49143.herokuapp.com/">Live app</a>
+            <br />
+            <a href="https://github.com/MarkYapp/deltio-client">GitHub Repo</a>
+          </div>
+          <div className="project-screenshot">
+            <img src="../images/deltio.png" alt="deltio" />
+          </div>
         </div>
-        <div className="project-info">
-          <h3>Yappr</h3>
-          <p>A simple, easy to use blogging app with user authentication.</p>
-          <p>
-            Tech: Node.js, MongoDB, Mongoose, Passport, JWT, Travis CI, Heroku, Mocha, JavaScript,
-            jQuery, HTML, and CSS
-          </p>
-          <a href="https://aqueous-basin-44559.herokuapp.com/">Live app</a>
-          <br />
-          <a href="https://github.com/MarkYapp/yappr">GitHub Repo</a>
+        <div className="project-wrapper">
+          <div className="project-info">
+            <h3>Yappr</h3>
+            <p>A simple, easy to use blogging app with user authentication.</p>
+            <p>
+              Tech: Node.js, MongoDB, Mongoose, Passport, JWT, Travis CI, Heroku, Mocha, JavaScript,
+              jQuery, HTML, and CSS
+            </p>
+            <a href="https://aqueous-basin-44559.herokuapp.com/">Live app</a>
+            <br />
+            <a href="https://github.com/MarkYapp/yappr">GitHub Repo</a>
+          </div>
+          <div className="project-screenshot">
+            <img src="../images/yappr.png" alt="yappr" />
+          </div>
         </div>
-        <div className="project-screenshot">
-          <img src="../images/yappr.png" alt="yappr" />
-        </div>
-        <div className="project-info">
-          <h3>International Space Station Locator</h3>
-          <p>Observe the ISS move in real time across an interactive world map.</p>
-          <p>Tech: JavaScript, jQuery, HTML, and CSS</p>
-          <a href="https://markyapp.github.io/ISS-Locator/">Live app</a>
-          <br />
-          <a href="https://github.com/MarkYapp/ISS-Locator">GitHub Repo</a>
-        </div>
-        <div className="project-screenshot">
-          <img src="../images/iss-locator.png" alt="ISS Locator" />
+        <div className="project-wrapper">
+          <div className="project-info">
+            <h3>International Space Station Locator</h3>
+            <p>Observe the ISS move in real time across an interactive world map.</p>
+            <p>Tech: JavaScript, jQuery, HTML, and CSS</p>
+            <a href="https://markyapp.github.io/ISS-Locator/">Live app</a>
+            <br />
+            <a href="https://github.com/MarkYapp/ISS-Locator">GitHub Repo</a>
+          </div>
+          <div className="project-screenshot">
+            <img src="../images/iss-locator.png" alt="ISS Locator" />
+          </div>
         </div>
       </section>
+      <footer>Mark Yapp</footer>
     </main>
   );
 }

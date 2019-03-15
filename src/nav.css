@@ -1,5 +1,4 @@
 .header {
-  /* padding: 30px; */
   text-align: center;
   background: lightgrey;
   height: 10vh;
@@ -7,10 +6,33 @@
 }
 
 nav {
-  background-color: #aaa;
+  background-color: lightgrey;
+  height: 5vh;
+  /* padding-left: 50px; */
+  display: flex;
 }
 
 nav a {
   margin-right: 20px;
   text-decoration: none;
+  justify-content: left;
 }
+
+nav button {
+  height: 100%;
+  border: none;
+  color: white;
+  background-color: grey;
+  padding: 0 10px;
+}
+
+nav button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+/* @media only screen and (min-width: 568px) {
+}
+
+@media only screen and (min-width: 900px) {
+} */

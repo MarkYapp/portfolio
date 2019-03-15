@@ -8,23 +8,12 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  text-align: center;
   line-height: 1.5;
   margin: 0;
+  /* height: 92vh; */
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-size: 16px;
-  padding: 2px 0;
-  background-color: #aaa;
-}
-
-section {
-  min-height: 200px;
-  padding: 6% 0;
-  /* background-color: #bbb; */
+body {
+  width: 100vw;
+  height: 100vh;
 }

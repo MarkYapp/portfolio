@@ -8,7 +8,6 @@ class App extends Component {
       <div>
         <Nav />
         <Main />
-        <footer>Mark Yapp</footer>
       </div>
     );
   }
