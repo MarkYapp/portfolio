@@ -10,8 +10,6 @@ export default class Nav extends React.Component {
   handleScroll = () => {
     const navbar = document.getElementById('navbar');
     const main = document.getElementById('main');
-
-    // let sticky = navbar.offsetTop;
     const headerHeight = 120;
     if (window.pageYOffset >= headerHeight) {
       navbar.classList.add('sticky');

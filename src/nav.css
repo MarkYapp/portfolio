@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(#addbe0, white);
-  /* background: lightgrey; */
   height: 120px;
   margin: 0;
 }
@@ -15,7 +14,6 @@
 }
 
 nav {
-  /* overflow: hidden; */
   background-color: white;
   opacity: 0.9;
   width: 1500px;
@@ -25,7 +23,6 @@ nav {
 }
 
 nav a {
-  /* margin-right: 20px; */
   text-decoration: none;
   justify-content: left;
 }
@@ -35,8 +32,6 @@ nav button {
   border: none;
   font-size: 21px;
   font-weight: 200;
-  /* color: white; */
-  /* background-color: grey; */
   padding: 0 10px;
 }
 
@@ -52,7 +47,6 @@ nav button:hover {
   transform: translate(-50%);
   position: fixed;
   top: 0;
-  /* width: 100%; */
 }
 
 .extra-padding {

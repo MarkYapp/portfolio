@@ -8,7 +8,7 @@ export default function Main() {
       <main id="main" className="main">
         <section id="profile" className="profile-section">
           <div className="profile-photo-box">
-            <img className="profile-photo" src="../images/profile-photo-2.png" alt="Mark Yapp" />
+            <img className="profile-photo" src="../images/profile-photo.png" alt="Mark Yapp" />
           </div>
           <div className="bio-box">
             <h4 id="bio">
@@ -44,9 +44,21 @@ export default function Main() {
                 Tech: React, Redux, Node.js, MongoDB, Mongoose, Passport, JWT, Travis CI, Heroku,
                 Enzyme, JavaScript, HTML, and CSS
               </p>
-              <a href="https://powerful-brook-49143.herokuapp.com/">Live app</a>
+              <a
+                href="https://powerful-brook-49143.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live app
+              </a>
               <br />
-              <a href="https://github.com/MarkYapp/deltio-client">GitHub Repo</a>
+              <a
+                href="https://github.com/MarkYapp/deltio-client"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                GitHub Repo
+              </a>
             </div>
             <div className="project-screenshot">
               <img src="../images/deltio.png" alt="deltio" />
@@ -60,9 +72,17 @@ export default function Main() {
                 Tech: Node.js, MongoDB, Mongoose, Passport, JWT, Travis CI, Heroku, Mocha,
                 JavaScript, jQuery, HTML, and CSS
               </p>
-              <a href="https://aqueous-basin-44559.herokuapp.com/">Live app</a>
+              <a
+                href="https://aqueous-basin-44559.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live app
+              </a>
               <br />
-              <a href="https://github.com/MarkYapp/yappr">GitHub Repo</a>
+              <a href="https://github.com/MarkYapp/yappr" target="_blank" rel="noreferrer noopener">
+                GitHub Repo
+              </a>
             </div>
             <div className="project-screenshot">
               <img src="../images/yappr.png" alt="yappr" />
@@ -73,9 +93,21 @@ export default function Main() {
               <h3>International Space Station Locator</h3>
               <p>Observe the ISS move in real time across an interactive world map.</p>
               <p>Tech: JavaScript, jQuery, HTML, and CSS</p>
-              <a href="https://markyapp.github.io/ISS-Locator/">Live app</a>
+              <a
+                href="https://markyapp.github.io/ISS-Locator/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live app
+              </a>
               <br />
-              <a href="https://github.com/MarkYapp/ISS-Locator">GitHub Repo</a>
+              <a
+                href="https://github.com/MarkYapp/ISS-Locator"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                GitHub Repo
+              </a>
             </div>
             <div className="project-screenshot">
               <img src="../images/iss-locator.png" alt="ISS Locator" />
@@ -83,7 +115,22 @@ export default function Main() {
           </div>
         </section>
       </main>
-      <footer>Mark Yapp</footer>
+      <footer id="contact">
+        <h3>Mark Yapp</h3>
+        <div className="footer-links">
+          <a href="mailto:markwyapp@gmail.com">Email</a>
+          <a
+            href="https://www.linkedin.com/in/mark-yapp/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            LinkedIn
+          </a>
+          <a href="https://github.com/MarkYapp" target="_blank" rel="noreferrer noopener">
+            GitHub
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
