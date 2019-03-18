@@ -29,6 +29,7 @@ export default function Main() {
               bicycles, doing yoga, or camping. Or all of the above in one weekend. I enjoy
               organizing and craft beer, and I love being outdoors, cooking, and reading.
             </p>
+            <h1>MY</h1>
           </div>
         </section>
 
@@ -61,7 +62,13 @@ export default function Main() {
               </a>
             </div>
             <div className="project-screenshot">
-              <img src="../images/deltio.png" alt="deltio" />
+              <a
+                href="https://powerful-brook-49143.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src="../images/deltio.png" alt="deltio" />
+              </a>
             </div>
           </div>
           <div className="project-wrapper">
@@ -85,7 +92,13 @@ export default function Main() {
               </a>
             </div>
             <div className="project-screenshot">
-              <img src="../images/yappr.png" alt="yappr" />
+              <a
+                href="https://aqueous-basin-44559.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src="../images/yappr.png" alt="yappr" />
+              </a>
             </div>
           </div>
           <div className="project-wrapper">
@@ -110,7 +123,13 @@ export default function Main() {
               </a>
             </div>
             <div className="project-screenshot">
-              <img src="../images/iss-locator.png" alt="ISS Locator" />
+              <a
+                href="https://markyapp.github.io/ISS-Locator/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img src="../images/iss-locator.png" alt="ISS Locator" />
+              </a>
             </div>
           </div>
         </section>
