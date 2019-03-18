@@ -29,7 +29,6 @@ export default function Main() {
               bicycles, doing yoga, or camping. Or all of the above in one weekend. I enjoy
               organizing and craft beer, and I love being outdoors, cooking, and reading.
             </p>
-            <h1>MY</h1>
           </div>
         </section>
 
