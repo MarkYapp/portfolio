@@ -116,18 +116,20 @@ export default function Main() {
         </section>
       </main>
       <footer id="contact">
-        <h3>Mark Yapp</h3>
+        <h2>Mark Yapp</h2>
         <div className="footer-links">
-          <a href="mailto:markwyapp@gmail.com">Email</a>
+          <a href="mailto:markwyapp@gmail.com">
+            <i className="fas fa-2x fa-envelope" />
+          </a>
           <a
             href="https://www.linkedin.com/in/mark-yapp/"
             target="_blank"
             rel="noreferrer noopener"
           >
-            LinkedIn
+            <i className="fab fa-2x fa-linkedin" />
           </a>
           <a href="https://github.com/MarkYapp" target="_blank" rel="noreferrer noopener">
-            GitHub
+            <i className="fab fa-2x fa-github" />
           </a>
         </div>
       </footer>
